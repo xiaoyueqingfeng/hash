@@ -1,0 +1,120 @@
+// @import '../../oa-core/styles/_mixins.less';
+// @import '../../oa-core/styles/_vars.less';
+
+// 这里的工具类不要用 后面要废弃
+body {
+  .pull-left {
+    float: left;
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .clearfloat:after {
+    display: block;
+    clear: both;
+    content: '';
+    visibility: hidden;
+    height: 0;
+  }
+
+  .clearfloat {
+    zoom: 1;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .light-grey {
+    color: rgba(0, 0, 0, 0.45);
+  }
+
+  .grey {
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  .middle-grey {
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  .middle-white {
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  .black {
+    color: #000;
+  }
+
+  .light-blue {
+    color: #1890ff;
+  }
+
+  .margin-t-3 {
+    margin-top: -3px;
+  }
+  .margin-t-6 {
+    margin-top: -6px;
+  }
+  .margin-t3 {
+    margin-top: 3px;
+  }
+  .margin-t8 {
+    margin-top: 8px;
+  }
+
+  .margin-t16 {
+    margin-top: 16px;
+  }
+
+  .margin-b8 {
+    margin-bottom: 8px;
+  }
+  .margin-b16 {
+    margin-bottom: 16px;
+  }
+  .margin-b24 {
+    margin-bottom: 24px;
+  }
+
+  .margin-t24 {
+    margin-top: 24px;
+  }
+  .margin-t-24 {
+    margin-top: -24px;
+  }
+  .margin-b32 {
+    margin-bottom: 32px;
+  }
+
+  .margin-r8 {
+    margin-right: 8px;
+  }
+  .margin-r16 {
+    margin-right: 16px;
+  }
+
+  .margin-l8 {
+    margin-left: 8px;
+  }
+
+  .padding-b16 {
+    padding-bottom: 16px;
+  }
+
+  .display-inlineblock {
+    display: inline-block;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+}
